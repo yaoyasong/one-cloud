@@ -1,0 +1,9 @@
+
+jar {
+    baseName = "${rootProject.ext.discoveryServerName}"
+    version = "${rootProject.ext.discoveryServerVersion}"
+}
+
+dependencies {
+    compile 'org.springframework.cloud:spring-cloud-starter-eureka-server'
+}

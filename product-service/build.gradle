@@ -1,0 +1,10 @@
+
+jar {
+    baseName = "${rootProject.ext.productServiceName}"
+    version = "${rootProject.ext.productServiceVersion}"
+}
+
+dependencies {
+    compile 'org.springframework.boot:spring-boot-starter-actuator'
+    compile 'org.springframework.cloud:spring-cloud-starter-eureka'
+}

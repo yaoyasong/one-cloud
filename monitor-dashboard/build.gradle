@@ -1,0 +1,11 @@
+
+jar {
+    baseName = "${rootProject.ext.monitorDashboardName}"
+    version = "${rootProject.ext.monitorDashboardVersion}"
+}
+
+dependencies {
+    compile 'org.springframework.boot:spring-boot-starter-actuator'
+    compile 'org.springframework.cloud:spring-cloud-starter-hystrix-dashboard'
+
+}

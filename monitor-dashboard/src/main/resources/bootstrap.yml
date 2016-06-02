@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: monitor-dashboard
+server:
+  port: 8889
